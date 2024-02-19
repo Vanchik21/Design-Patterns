@@ -12,6 +12,5 @@
             this.surname = surname;
             this.position = position;
         }
-
     }
 }
