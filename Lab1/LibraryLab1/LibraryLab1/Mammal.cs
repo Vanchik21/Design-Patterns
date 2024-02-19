@@ -6,18 +6,17 @@ using System.Threading.Tasks;
 
 namespace LibraryLab1
 {
-    public class Bird : Animal
+    public class Mammal : Animal
     {
-        private bool isFlying;
+        protected bool isFlying;
 
-        public Bird(string name, string vetPassport, bool isFlying) : base(name, vetPassport)
+        public Mammal(string name, string vetPassport, bool isFlying) : base(name, vetPassport)
         {
             this.isFlying = isFlying;
         }
-
         public override bool IsFlying()
         {
-            return isFlying;
+           return isFlying;
         }
     }
 }

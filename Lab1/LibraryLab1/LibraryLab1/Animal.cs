@@ -26,5 +26,7 @@ namespace LibraryLab1
         {
             return vetPassport;
         }
+        
+        public abstract bool IsFlying();
     }
 }
