@@ -8,25 +8,13 @@ namespace LibraryLab1
 {
     public abstract class Animal
     {
-        protected string name;
-        protected string vetPassport;
+        public string Name { get; set; }
+        public string VetPassport { get; set; }
 
-        public Animal(string name, string vetPassport) 
-        { 
-            this.name = name;
-            this.vetPassport = vetPassport;
-        }
-
-        public string Name
+        public Animal(string name, string vetPassport)
         {
-            get { return name; }
-            set { name = value; }
-        }
-
-        public string VetPassport
-        {
-            get { return vetPassport; }
-            set { vetPassport = value; }
+            Name = name;
+            VetPassport = vetPassport;
         }
 
         public abstract bool IsFlying();

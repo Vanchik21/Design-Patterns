@@ -8,18 +8,13 @@ namespace LibraryLab1
 {
     public abstract class Case
     {
-        protected int idCase;
-        protected string manufacturingMaterial;
+        public int idCase {  get; set; }
+        public string manufacturingMaterial { get; set; }
 
         public Case(int idCase, string manufacturingMaterial)
         {
             this.idCase = idCase;
             this.manufacturingMaterial = manufacturingMaterial;
-        }
-
-        public string ManufacturingMaterial()
-        {
-            return manufacturingMaterial;
         }
     }
 }

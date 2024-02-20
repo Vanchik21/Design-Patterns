@@ -8,15 +8,15 @@ namespace LibraryLab1
 {
     public class Mammal : Animal
     {
-        protected bool isFlying;
-
+        public bool CanFly;
         public Mammal(string name, string vetPassport, bool isFlying) : base(name, vetPassport)
         {
-            this.isFlying = isFlying;
+            this.CanFly = isFlying;
         }
+
         public override bool IsFlying()
         {
-           return isFlying;
+            return false;
         }
     }
 }

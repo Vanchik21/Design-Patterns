@@ -8,7 +8,7 @@ namespace LibraryLab1
 {
     public class Bird : Animal
     {
-        private bool isFlying;
+        public bool isFlying;
 
         public Bird(string name, string vetPassport, bool isFlying) : base(name, vetPassport)
         {
