@@ -17,16 +17,18 @@ namespace LibraryLab1
             this.vetPassport = vetPassport;
         }
 
-        public string GetName()
+        public string Name
         {
-            return name;
+            get { return name; }
+            set { name = value; }
         }
 
-        public string GetVetPassport()
+        public string VetPassport
         {
-            return vetPassport;
+            get { return vetPassport; }
+            set { vetPassport = value; }
         }
-        
+
         public abstract bool IsFlying();
     }
 }

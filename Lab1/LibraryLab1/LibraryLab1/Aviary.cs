@@ -15,5 +15,9 @@ namespace LibraryLab1
             this.volume = volume;
         }
 
+        public double Volume()
+        {
+            return volume;
+        }
     }
 }
