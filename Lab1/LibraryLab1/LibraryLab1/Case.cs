@@ -8,8 +8,8 @@ namespace LibraryLab1
 {
     public abstract class Case
     {
-        public int idCase {  get; set; }
-        public string manufacturingMaterial { get; set; }
+        protected int idCase {  get; set; }
+        protected string manufacturingMaterial { get; set; }
 
         public Case(int idCase, string manufacturingMaterial)
         {

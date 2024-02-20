@@ -2,9 +2,9 @@
 {
     public class ZooStaff
     {
-        protected string Name { get; set; }
-        protected string Surname { get; set; }
-        protected string Position { get; set; }
+        public string Name { get; private set; }
+        public string Surname { get; private set; }
+        public string Position { get; private set; }
 
         public ZooStaff(string name, string surname, string position)
         {

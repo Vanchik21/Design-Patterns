@@ -8,8 +8,8 @@ namespace LibraryLab1
 {
     public abstract class Animal
     {
-        public string Name { get; set; }
-        public string VetPassport { get; set; }
+        public string Name { get; private set; }
+        public string VetPassport { get; private set; }
 
         public Animal(string name, string vetPassport)
         {
@@ -17,6 +17,6 @@ namespace LibraryLab1
             VetPassport = vetPassport;
         }
 
-        public abstract bool IsFlying();
+        public abstract bool CanFly();
     }
 }

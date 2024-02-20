@@ -10,7 +10,7 @@ namespace LibraryLab1
     {
         public Reptile(string name, string vetPassport) : base(name, vetPassport) { }
 
-        public override bool IsFlying()
+        public override bool CanFly()
         {
             return false;
         }

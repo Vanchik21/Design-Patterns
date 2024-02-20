@@ -8,7 +8,7 @@ namespace LibraryLab1
 {
     public class Aviary : Case
     {
-        public double volume {  get; set; }
+        protected double volume {  get; set; }
 
         public Aviary(int idcase, string manufacturingMaterial, double volume) : base(idcase, manufacturingMaterial)
         {
