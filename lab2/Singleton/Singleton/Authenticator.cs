@@ -22,7 +22,6 @@ namespace Singleton
         }
 
         private static bool instanceCreated = false;
-
         public static Authenticator Instance
         {
             get
@@ -31,6 +30,7 @@ namespace Singleton
             }
         }
 
+        // Метод для демонстрації роботи класу Authenticator
         public void Authenticate()
         {
             Console.WriteLine("Authentication successful.");
