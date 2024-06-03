@@ -5,8 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace DeviceFactoryLibrary
-{
-    internal class EBook
+{ 
+    public class EBook : IDevice
     {
+        private string _brand;
+
+        public EBook(string brand)
+        {
+            _brand = brand;
+        }
+
+        public string GetDeviceDetails()
+        {
+            return $"{_brand} EBook";
+        }
     }
 }

@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace DeviceFactoryLibrary
 {
-    internal class Netbook
+    public class Netbook : IDevice
     {
+        private string _brand;
+
+        public Netbook(string brand)
+        {
+            _brand = brand;
+        }
+
+        public string GetDeviceDetails()
+        {
+            return $"{_brand} Netbook";
+        }
     }
 }
