@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{ECC59D70-E2C7-4447-BB55-5181BF889DCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodLibrary", "FactoryMethodLibrary\FactoryMethodLibrary.csproj", "{E5CF3070-BDBC-4B60-ADE6-7E024D1D2850}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECC59D70-E2C7-4447-BB55-5181BF889DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC59D70-E2C7-4447-BB55-5181BF889DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC59D70-E2C7-4447-BB55-5181BF889DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC59D70-E2C7-4447-BB55-5181BF889DCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5CF3070-BDBC-4B60-ADE6-7E024D1D2850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5CF3070-BDBC-4B60-ADE6-7E024D1D2850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5CF3070-BDBC-4B60-ADE6-7E024D1D2850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5CF3070-BDBC-4B60-ADE6-7E024D1D2850}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5554F449-8425-4A9D-9093-A80230C38CEF}
+	EndGlobalSection
+EndGlobal
